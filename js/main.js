@@ -36,7 +36,9 @@ $(function() {
 			}
 		}
 	})
-
+	window.onresize = function() {
+		window.location.reload();
+	}
 	function slide(count) {
 		jQuery(".main-keynelProdcut-m").slide({
 			titCell: ".hd ul",
