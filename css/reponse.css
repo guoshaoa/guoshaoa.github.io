@@ -423,6 +423,9 @@
 	.header .wrap{
 		height: 50px;
 	}
+	.header>ul{
+		top: 50px;
+	}
 	.main-banner{
 		margin-top: 50px;
 	}
@@ -493,6 +496,9 @@
 	.main-banner{
 		margin-top: 45px;
 	}
+	.header>ul{
+		top: 45px;
+	}
 }
 
 @media only screen and (max-width: 490px) {
@@ -556,6 +562,9 @@
 	}
 	.main-banner{
 		margin-top: 40px;
+	}
+	.header>ul{
+		top: 40px;
 	}
 }
 
