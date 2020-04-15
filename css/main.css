@@ -19,7 +19,6 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 }
-
 .daxie {
 	text-transform: Uppercase;
 }
@@ -245,7 +244,8 @@ a {
 	-webkit-box-orient: vertical;
 }
 
-.main-aboutUs-m-r button {
+.main-aboutUs-m-r .button {
+	display: block;
 	color: #0a75bf;
 	background: #fff;
 	font-size: 0.24rem;
@@ -430,7 +430,7 @@ a {
 	position: relative;
 }
 
-.main-modelCase-m-l button {
+.main-modelCase-m-l .button {
 	color: #0a75bf;
 	background: #fff;
 	font-size: 0.24rem;
