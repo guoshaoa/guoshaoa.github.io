@@ -37,8 +37,11 @@ $(function() {
 		}
 	})
 	window.onresize = function() {
-		window.location.reload();
+		setTimeout(()=>{
+			window.location.reload();
+		},1000)
 	}
+
 	function slide(count) {
 		jQuery(".main-keynelProdcut-m").slide({
 			titCell: ".hd ul",
