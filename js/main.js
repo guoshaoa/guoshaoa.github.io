@@ -37,9 +37,7 @@ $(function() {
 		}
 	})
 	window.onresize = function() {
-		setTimeout(()=>{
-			window.location.reload();
-		},1000)
+		window.location.reload();
 	}
 
 	function slide(count) {
