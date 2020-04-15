@@ -10,6 +10,7 @@ $(function() {
 	} else {
 		count = 1;
 	}
+	console.log(count)
 	slide(count);
 	if($(".main-companyOver-m ul").length > 1) {
 		var special = $(".main-companyOver-m .owl").owlCarousel({
